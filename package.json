@@ -1,16 +1,25 @@
 {
-  "name": "tello1",
+  "name": "tello",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "fly.js",
+  "type": "module",
+
   "scripts": {
-    "dev": "node fly.js",
     "start": "nodemon fly.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "^3.1.0"
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "lodash": "^4.17.11",
+    "socket.io": "^2.2.0",
+    "waait": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
   }
 }
